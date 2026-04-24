@@ -30,9 +30,8 @@ Công cụ hỗ trợ sao chép tệp tin và thư mục khổng lồ trên Goog
 ### Bước 3: Cài đặt Phím tắt trên iOS
 1. Tải Phím tắt bằng đường link sau: [https://www.icloud.com/shortcuts/ff41d06a9cc846a188ca2d3b6b0b28b5](https://www.icloud.com/shortcuts/ff41d06a9cc846a188ca2d3b6b0b28b5) 
  - Hoặc tải file `Copy GDrive.shortcut` trong mã nguồn này.
-2. Sau khi thêm vào thư viện, nhấn vào dấu **(...)** trên Phím tắt để chỉnh sửa.  
-3.Khi nhấn thêm phím tắt sẽ hiện ra bản dữ liệu đầu vào dán dòng **Web app URL** đã copy ở Bước 2 vào.
-4. Nhấn **Xong** để lưu lại.  
+2.Khi nhấn thêm phím tắt sẽ hiện ra bản dữ liệu đầu vào dán dòng **Web app URL** đã copy ở Bước 2 vào.
+3. Nhấn **Xong** để lưu lại.  
 
 ## Hướng dẫn sử dụng
 1. Mở Phím tắt hoặc chạy từ Widget/Menu chia sẻ.  
@@ -41,11 +40,13 @@ Công cụ hỗ trợ sao chép tệp tin và thư mục khổng lồ trên Goog
 4. Theo dõi:
    - iPhone sẽ báo "Yêu cầu đã được tiếp nhận" ngay lập tức.  
    - Hệ thống bắt đầu quét và copy ngầm.  
+   - Bạn có thể ném liên tục vài link cần coppy sẽ có hệ thống trigger chia thời gian làm việc
    - Khi hoàn tất, bạn sẽ nhận được một Email từ chính bạn với nội dung thống kê chi tiết (số file, số folder).  
    ![Banner](noti.jpeg)
 
 ## Lưu ý quan trọng
 - Cấp quyền lần đầu: Trong lần triển khai đầu tiên, bạn nên cấp cho nó 3 full quyền(trigger, gửi mail cho chính mình, chạy script copy file drive) . Nếu không, phím tắt sẽ báo lỗi quyền `ScriptApp`.  
+- Giới hạn của App Script: 90 phút mỗi ngày cho tài khoản free
 - Giới hạn của Google: Mặc dù đã có cơ chế chạy tiếp sức, nhưng nếu thư mục quá lớn (vài chục ngàn file), thời gian hoàn thành có thể kéo dài vài chục phút tùy dung lượng.  
 - Đối với limit của goolge drive là <750gb/ngày
 
