@@ -30,7 +30,7 @@ Công cụ hỗ trợ sao chép tệp tin và thư mục khổng lồ trên Goog
 ### Bước 3: Cài đặt Phím tắt trên iOS
 1. Tải Phím tắt bằng đường link sau: [https://www.icloud.com/shortcuts/ff41d06a9cc846a188ca2d3b6b0b28b5](https://www.icloud.com/shortcuts/ff41d06a9cc846a188ca2d3b6b0b28b5) 
  - Hoặc tải file `Copy GDrive.shortcut` trong mã nguồn này.
-2.Khi nhấn thêm phím tắt sẽ hiện ra bản dữ liệu đầu vào dán dòng **Web app URL** đã copy ở Bước 2 vào.
+2. Khi nhấn thêm phím tắt sẽ hiện ra bản dữ liệu đầu vào dán dòng **Web app URL** đã copy ở Bước 2 vào.
 3. Nhấn **Xong** để lưu lại.  
 
 ## Hướng dẫn sử dụng
