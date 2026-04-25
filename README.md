@@ -39,7 +39,7 @@ Công cụ hỗ trợ sao chép tệp tin và thư mục khổng lồ trên Goog
 3. Nhập Link thư mục đích: Dán link folder bạn muốn lưu vào (bỏ trống để lưu ngay tại thư mục gốc Drive của bạn).  
 4. Theo dõi:
    - iPhone sẽ báo "Yêu cầu đã được tiếp nhận" ngay lập tức.  
-   - Hệ thống bắt đầu quét và copy ngầm.  
+   - Hệ thống bắt đầu quét và copy âm thầm trên app script.  
    - Bạn có thể ném liên tục vài link cần coppy sẽ có hệ thống trigger chia thời gian làm việc
    - Khi hoàn tất, bạn sẽ nhận được một Email từ chính bạn với nội dung thống kê chi tiết (số file, số folder).  
    ![Banner](noti.jpeg)
@@ -51,5 +51,15 @@ Công cụ hỗ trợ sao chép tệp tin và thư mục khổng lồ trên Goog
 - Đối với limit của goolge drive là <750gb/ngày
 
 ## Mã nguồn
-- `code.gs`: Chứa logic xử lý đệ quy và chạy tiếp sức trên Google Apps Script.  
-- `Copy GDrive.shortcut`: Giao diện người dùng trên iOS.  
+- `code.gs`: Chứa code chạy shortcut trên Google Apps Script.  
+- `Copy GDrive.shortcut`: File shortcut dùng trên iOS.
+  
+## Liên hệ
+
+| Kênh | Link |
+|------|------|
+| GitHub | [nguyenngocphung2000](https://github.com/nguyenngocphung2000) |
+| Telegram | [@nothing3272](https://t.me/nothing3272) |
+| Facebook | [Nguyễn Ngọc Phụng](https://www.facebook.com/share/1Ayyxg5kjH/) |
+| Email Form | [Google Form](https://forms.gle/5brLdS34QMQ3ei157) |
+---
